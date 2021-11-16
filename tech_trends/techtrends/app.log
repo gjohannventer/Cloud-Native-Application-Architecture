@@ -1,0 +1,165 @@
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.0.6:3111/ (Press CTRL+C to quit)
+INFO:app:Status request successfull
+INFO:werkzeug:127.0.0.1 - - [10/Nov/2021 16:05:54] "GET /1 HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.0.6:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [10/Nov/2021 16:14:58] "GET / HTTP/1.1" 200 -
+ERROR:app:Exception on /1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\gjoha\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\gjoha\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\gjoha\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\gjoha\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Udacity\my_projects\Project_1\nd064_course_1\project\techtrends\app.py", line 72, in post
+    dateTimeObj = datetime.now()
+AttributeError: module 'datetime' has no attribute 'now'
+INFO:werkzeug:127.0.0.1 - - [10/Nov/2021 16:15:04] "[35m[1mGET /1 HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\gjoha\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\gjoha\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\gjoha\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\gjoha\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Udacity\my_projects\Project_1\nd064_course_1\project\techtrends\app.py", line 72, in post
+    dateTimeObj = datetime.now()
+AttributeError: module 'datetime' has no attribute 'now'
+INFO:werkzeug:127.0.0.1 - - [10/Nov/2021 16:15:41] "[35m[1mGET /1 HTTP/1.1[0m" 500 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.0.6:3111/ (Press CTRL+C to quit)
+ERROR:app:Exception on /1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\gjoha\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\gjoha\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\gjoha\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\gjoha\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Udacity\my_projects\Project_1\nd064_course_1\project\techtrends\app.py", line 72, in post
+    dateTimeObj = datetime.now()
+AttributeError: module 'datetime' has no attribute 'now'
+INFO:werkzeug:127.0.0.1 - - [10/Nov/2021 16:16:33] "[35m[1mGET /1 HTTP/1.1[0m" 500 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.0.6:3111/ (Press CTRL+C to quit)
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.0.6:3111/ (Press CTRL+C to quit)
+ERROR:app:Exception on /1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\gjoha\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\gjoha\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\gjoha\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\gjoha\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Udacity\my_projects\Project_1\nd064_course_1\project\techtrends\app.py", line 73, in post
+    dt_object = datetime.fromtimestamp(timestamp)
+NameError: name 'timestamp' is not defined
+INFO:werkzeug:127.0.0.1 - - [10/Nov/2021 16:21:07] "[35m[1mGET /1 HTTP/1.1[0m" 500 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.0.6:3111/ (Press CTRL+C to quit)
+ERROR:app:Exception on /1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\gjoha\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\gjoha\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\gjoha\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\gjoha\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Udacity\my_projects\Project_1\nd064_course_1\project\techtrends\app.py", line 74, in post
+    dt_object = datetime.fromtimestamp(timestamp)
+NameError: name 'timestamp' is not defined
+INFO:werkzeug:127.0.0.1 - - [10/Nov/2021 16:22:26] "[35m[1mGET /1 HTTP/1.1[0m" 500 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.0.6:3111/ (Press CTRL+C to quit)
+INFO:app:10-Nov-2021 (16:23:13.370226) Status request successfull
+INFO:werkzeug:127.0.0.1 - - [10/Nov/2021 16:23:19] "GET /1 HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.0.6:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [10/Nov/2021 16:26:05] "GET / HTTP/1.1" 200 -
+ERROR:app:Exception on /1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\gjoha\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\gjoha\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\gjoha\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\gjoha\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Udacity\my_projects\Project_1\nd064_course_1\project\techtrends\app.py", line 74, in post
+    app.logger.info(f'{timestampStr} Article {post[0].title} retrieved!')
+AttributeError: 'int' object has no attribute 'title'
+INFO:werkzeug:127.0.0.1 - - [10/Nov/2021 16:26:59] "[35m[1mGET /1 HTTP/1.1[0m" 500 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.0.6:3111/ (Press CTRL+C to quit)
+INFO:app:10-Nov-2021 (16:29:08.123109) Article 2020 CNCF Annual Report retrieved!
+INFO:werkzeug:127.0.0.1 - - [10/Nov/2021 16:29:09] "GET /1 HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.0.6:3111/ (Press CTRL+C to quit)
+INFO:app:11/10/21 (16:41:57.689061) Article 2020 CNCF Annual Report retrieved!
+INFO:werkzeug:127.0.0.1 - - [10/Nov/2021 16:41:57] "GET /1 HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.0.6:3111/ (Press CTRL+C to quit)
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.0.6:3111/ (Press CTRL+C to quit)
+INFO:app:11/10/21, 16:45:32 Article 2020 CNCF Annual Report retrieved!
+INFO:werkzeug:127.0.0.1 - - [10/Nov/2021 16:45:33] "GET /1 HTTP/1.1" 200 -
+INFO:app:11/10/21, 16:45:33 Article 2020 CNCF Annual Report retrieved!
+INFO:werkzeug:127.0.0.1 - - [10/Nov/2021 16:45:34] "GET /1 HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.0.6:3111/ (Press CTRL+C to quit)
+INFO:app:11/10/2021, 16:47:54 Article 2020 CNCF Annual Report retrieved!
+INFO:werkzeug:127.0.0.1 - - [10/Nov/2021 16:47:55] "GET /1 HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.0.6:3111/ (Press CTRL+C to quit)
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.0.6:3111/ (Press CTRL+C to quit)
+ERROR:app:11/10/2021, 16:51:36 a non existing article is accessed
+INFO:werkzeug:127.0.0.1 - - [10/Nov/2021 16:51:37] "[33mGET /8 HTTP/1.1[0m" 404 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.0.6:3111/ (Press CTRL+C to quit)
+ERROR:app:11/10/2021, 16:52:26 a non existing article with id: 8 is accessed
+INFO:werkzeug:127.0.0.1 - - [10/Nov/2021 16:52:26] "[33mGET /8 HTTP/1.1[0m" 404 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.0.6:3111/ (Press CTRL+C to quit)
+INFO:app:11/10/2021, 16:55:13 "About us" retrieved
+INFO:werkzeug:127.0.0.1 - - [10/Nov/2021 16:55:13] "GET /about HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.0.6:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [10/Nov/2021 17:04:17] "[33mGET /created?title=test&contect=test HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Nov/2021 17:04:33] "GET /create?title=test&contect=test HTTP/1.1" 200 -
+INFO:app:11/10/2021, 17:04:55 Article test has been created!
+INFO:werkzeug:127.0.0.1 - - [10/Nov/2021 17:04:55] "[32mPOST /create?title=test&contect=test HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Nov/2021 17:04:55] "GET / HTTP/1.1" 200 -

@@ -1,0 +1,1 @@
+{"rsync":{"/vagrant":{"type":"rsync","guestpath":"/vagrant","hostpath":"C:/Udacity/my_projects/Cloud-Native-Application-Architecture/tech_trends","disabled":false,"__vagrantfile":true,"owner":"vagrant","group":"vagrant"}}}
