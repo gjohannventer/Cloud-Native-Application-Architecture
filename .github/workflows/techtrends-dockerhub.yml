@@ -38,8 +38,8 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v2
         with:
-          context: ./tech_trends
-          file: tech_trends/Dockerfile
+          context: ./tech_trends_project_1
+          file: tech_trends_project_1/Dockerfile
           platforms: linux/amd64
           push: true
           tags: gjohannventer/techtrends:latest
